@@ -1,0 +1,168 @@
+.body{
+    background-image: linear-gradient( to left, #8b8982, #fffffd);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* fonts */
+#fullname {
+    font-size: larger;
+    padding: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+}
+
+.smallp {
+    font-size: larger;
+    color: #181009;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+    float: left;
+    width: 50%;
+    padding: 2%;
+    font-size: 22px;
+}
+
+.largep {
+    color: #181009;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Open Sans', 'Helvetica', Arial, sans-serif;
+    float: left;
+    padding-top: 10px;    
+}
+
+/** .iphonecase{    
+   margin-top: 0px;
+   overflow: auto;
+   margin: 10px;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10%;
+   float: right;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+} **/
+
+
+
+.maincontent{
+    flex-direction: column;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: #353A3F;
+    padding: 10px;
+    color: white;
+}
+
+.linkStyle{
+    color: #70AFB9;
+    text-decoration: underline;
+}
+
+#personalPhoto {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    float: right;
+    padding: 2%;
+}
+
+.cardLayout {
+    display: flex;
+    flex-direction: space-around;
+}
+
+.cardOne {
+    margin: 5%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.8rem;
+}
+.cardTwo {
+    margin: 5%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.8rem;
+}
+.cardThree {
+    margin: 5%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.8rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    color: #536666;
+    font-size: 26px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.titles {
+   display: flex;
+    justify-content: center;
+    color: #181009;
+}
+
+.helloWorld {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #181009;
+    padding-bottom: 2%;
+}
+
+/** @media screen and (min-width: 800) {
+   
+}
+**/
+
+#buttonMain {
+    text-align: center;
+    border-radius: 24.5px;
+    background: #536666;
+}
+
+.first {
+    width: 100%;
+    height: 1000px;
+}
+
+.second {
+    width: 100%;
+    height: 1970px;
+}
+
+.mainHeader {
+    font-size: xx-large;
+    color: #181009;
+    margin: 2%;
+}
